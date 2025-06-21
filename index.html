@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <input id="date" type="date" />
+    <button>Submit</button>
+  </form>
+
+  <script>
+    console.log("hello");
+
+    const today = new Date().toISOString().split('T')[0];
+    const dateElement = document.getElementById("date");
+    dateElement.value = '2000-06-10'
+    console.log(today)
+
+    const button = document.querySelector("button");
+    button.addEventListener("click", (e) => {
+      e.preventDefault();
+      console.log("Clicked :: ", dateElement.value);
+    });
+  </script>
+</body>
+</html>
