@@ -81,7 +81,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Home',
+        title: 'Learn with Sandeep',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -95,6 +95,11 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            href: 'https://sandeepprasad.xyz/',
+            label: 'Website',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/Sandeep-Petwal/readmes',
             label: 'GitHub',
             position: 'right',
@@ -105,28 +110,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Frontend Technologies',
+                to: '/docs/category/frontend-technologies',
+              },
+              {
+                label: 'Backend Technologies',
+                to: '/docs/category/backend-technologies',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Connect',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Website',
+                href: 'https://sandeepprasad.xyz/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/Sandeep-Petwal/',
               },
             ],
           },
@@ -138,13 +143,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'About',
+                to: '/docs/intro',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} learn.sandeepprasad.com. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sandeep Prasad. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

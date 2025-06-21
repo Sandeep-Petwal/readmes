@@ -1,4 +1,12 @@
-# Google Authentication Integration Guide
+---
+sidebar_label: 'Google Auth'
+title: 'Google OAuth Authentication - Complete Guide'
+description: 'Step-by-step guide to implementing Google OAuth authentication in React frontend and Node.js backend with JWT token handling.'
+---
+
+# Google OAuth Authentication - Complete Guide
+
+A comprehensive guide to implementing Google OAuth authentication in React frontend and Node.js backend applications.
 
 ## Frontend Steps
 

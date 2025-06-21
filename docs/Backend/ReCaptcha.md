@@ -1,4 +1,12 @@
-# Implementing Google reCAPTCHA v3 in React and Express
+---
+sidebar_label: 'ReCaptcha'
+title: 'Google reCAPTCHA v3 - Complete Implementation Guide'
+description: 'Step-by-step guide to implementing Google reCAPTCHA v3 in React frontend and Express backend for bot protection and security.'
+---
+
+# Google reCAPTCHA v3 - Complete Implementation Guide
+
+A comprehensive guide to implementing Google reCAPTCHA v3 in React and Express applications for enhanced security and bot protection.
 
 ## Step 1: Get reCAPTCHA Keys
 

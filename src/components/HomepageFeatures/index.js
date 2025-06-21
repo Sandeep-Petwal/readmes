@@ -1,49 +1,61 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '🎯 Frontend Technologies',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Explore my journey through React ecosystem, state management, UI libraries, 
+        authentication, and modern frontend development practices. From basic setup 
+        to advanced concepts.
       </>
     ),
+    link: '/docs/category/frontend-technologies',
+    icon: '⚛️',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '⚙️ Backend Technologies',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Dive into server-side development, real-time communication with Socket.io, 
+        authentication systems, and security implementations. Learn about building 
+        robust backend services and APIs.
       </>
     ),
+    link: '/docs/category/backend-technologies',
+    icon: '🔧',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '📝 Blog & Insights',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Read my thoughts, experiences, and insights about technology, learning, 
+        and development. From project stories to technical deep-dives, 
+        sharing what I learn along the way.
       </>
     ),
+    link: '/blog',
+    icon: '✍️',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description, link, icon}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+      <div className={styles.featureCard}>
+        <div className={styles.featureIcon}>
+          <span className={styles.iconText}>{icon}</span>
+        </div>
+        <div className={styles.featureContent}>
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p className={styles.featureDescription}>{description}</p>
+          <Link to={link} className={styles.featureLink}>
+            Explore Now →
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -53,6 +65,14 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.featuresHeader}>
+          <Heading as="h2" className={styles.featuresTitle}>
+            What I'm Learning & Documenting
+          </Heading>
+          <p className={styles.featuresSubtitle}>
+            A curated collection of my learning journey through modern web technologies
+          </p>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

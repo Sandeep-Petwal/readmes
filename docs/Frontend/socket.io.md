@@ -1,10 +1,15 @@
-# WebSocket Authentication with JWT - Step by Step Guide
+---
+sidebar_label: 'Frontend Socket.io'
+title: 'Socket.io Client - Frontend Implementation Guide'
+description: 'Complete guide to implementing Socket.io client in React with JWT authentication, custom hooks, and real-time communication.'
+---
 
-A comprehensive guide to implementing secure WebSocket connections using JWT authentication in a React and Node.js application.
+# Socket.io Client - Frontend Implementation Guide
+
+A comprehensive guide to implementing Socket.io client in React applications with JWT authentication and real-time communication features.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
-- [Server-Side Implementation](#server-side-implementation)
 - [Client-Side Implementation](#client-side-implementation)
 - [Usage Examples](#usage-examples)
 - [Best Practices](#best-practices)
@@ -12,62 +17,8 @@ A comprehensive guide to implementing secure WebSocket connections using JWT aut
 ## Prerequisites
 
 ```bash
-# Server dependencies
-npm install express socket.io jsonwebtoken
-
 # Client dependencies
 npm install socket.io-client
-```
-
-## Server-Side Implementation
-
-### Step 1: Setup Express and Socket.IO Server
-
-```javascript
-const express = require('express');
-const http = require('http');
-const { Server } = require('socket.io');
-
-const app = express();
-const server = http.createServer(app);
-const io = new Server(server, {
-  cors: {
-    origin: "http://localhost:3000",
-    methods: ["GET", "POST"]
-  }
-});
-```
-
-### Step 2: Implement Authentication Middleware
-
-```javascript
-const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
-
-io.use((socket, next) => {
-    const token = socket.handshake.auth.token;
-    if (!token) return next(new Error('Authentication error: No token provided'));
-    jwt.verify(token, SECRET_KEY, (err, decoded) => {
-        if (err) return next(new Error('Authentication error: Invalid token'));
-        socket.user = decoded;
-        next();
-    })
-})
- 
-```
-
-### Step 3: Handle Socket Connections
-
-```javascript
-io.on('connection', (socket) => {
-  console.log(`User connected: ${socket.user.id}`);
-  
-  // Join user-specific room
-  socket.join(`user-${socket.user.id}`);
-  
-  socket.on('disconnect', () => {
-    console.log(`User disconnected: ${socket.user.id}`);
-  });
-});
 ```
 
 ## Client-Side Implementation
@@ -130,7 +81,6 @@ const ChatComponent = () => {
 ## Best Practices
 
 1. **Security**
-   - Store JWT_SECRET in environment variables
    - Implement token expiration and renewal
    - Use HTTPS in production
    - Validate token payload
@@ -141,7 +91,6 @@ const ChatComponent = () => {
    - Log security-related events
 
 3. **Performance**
-   - Implement room-based broadcasting
    - Clean up event listeners
    - Handle disconnections properly
 
@@ -172,40 +121,165 @@ const ChatComponent = () => {
 
 ## Advanced Usage
 
-### Room-Based Authorization
-
-```javascript
-// Server-side
-socket.on('joinRoom', (roomId) => {
-  // Check if user has access to room
-  if (canAccessRoom(socket.user, roomId)) {
-    socket.join(roomId);
-    socket.emit('roomJoined', roomId);
-  }
-});
-```
-
 ### Custom Events
 
 ```javascript
-// Server-side
-io.to(`user-${userId}`).emit('notification', {
-  message: 'New message received'
-});
-
 // Client-side
 socket.on('notification', (data) => {
   showNotification(data.message);
 });
+
+// Emit events
+socket.emit('sendMessage', {
+  message: 'Hello World',
+  room: 'general'
+});
 ```
 
----
+### Room Management
 
-## Recap
+```javascript
+// Join a room
+socket.emit('joinRoom', 'roomId');
 
-1. Set up server with Socket.IO and JWT authentication
-2. Implement authentication middleware
-3. Create client-side socket hook
-4. Handle connections and events
-5. Follow security best practices
+// Listen for room events
+socket.on('roomJoined', (roomId) => {
+  console.log(`Joined room: ${roomId}`);
+});
+
+socket.on('userJoined', (user) => {
+  console.log(`${user.name} joined the room`);
+});
+```
+
+### Reconnection Logic
+
+```javascript
+const useSocketWithReconnect = (token) => {
+  const [socket, setSocket] = useState(null);
+  const [isConnected, setIsConnected] = useState(false);
+  const [reconnectAttempts, setReconnectAttempts] = useState(0);
+  const maxReconnectAttempts = 5;
+
+  useEffect(() => {
+    if (!token) return;
+
+    const socketInstance = io('http://localhost:3001', {
+      auth: { token },
+      reconnection: true,
+      reconnectionAttempts: maxReconnectAttempts,
+      reconnectionDelay: 1000,
+    });
+
+    socketInstance.on('connect', () => {
+      setIsConnected(true);
+      setReconnectAttempts(0);
+    });
+
+    socketInstance.on('disconnect', () => {
+      setIsConnected(false);
+    });
+
+    socketInstance.on('reconnect_attempt', (attemptNumber) => {
+      setReconnectAttempts(attemptNumber);
+      if (attemptNumber > maxReconnectAttempts) {
+        console.error('Max reconnection attempts reached');
+      }
+    });
+
+    setSocket(socketInstance);
+
+    return () => socketInstance.disconnect();
+  }, [token]);
+
+  return { socket, isConnected, reconnectAttempts };
+};
+```
+
+## Complete Example
+
+```javascript
+import React, { useState, useEffect } from 'react';
+import { useSocket } from './hooks/useSocket';
+
+const ChatApp = () => {
+  const [messages, setMessages] = useState([]);
+  const [inputMessage, setInputMessage] = useState('');
+  const token = localStorage.getItem('authToken');
+  const { socket, isConnected } = useSocket(token);
+
+  useEffect(() => {
+    if (!socket) return;
+
+    // Listen for incoming messages
+    socket.on('message', (newMessage) => {
+      setMessages(prev => [...prev, newMessage]);
+    });
+
+    // Listen for user join/leave events
+    socket.on('userJoined', (user) => {
+      setMessages(prev => [...prev, {
+        type: 'system',
+        content: `${user.name} joined the chat`
+      }]);
+    });
+
+    socket.on('userLeft', (user) => {
+      setMessages(prev => [...prev, {
+        type: 'system',
+        content: `${user.name} left the chat`
+      }]);
+    });
+
+    return () => {
+      socket.off('message');
+      socket.off('userJoined');
+      socket.off('userLeft');
+    };
+  }, [socket]);
+
+  const sendMessage = () => {
+    if (!inputMessage.trim() || !socket) return;
+
+    socket.emit('sendMessage', {
+      content: inputMessage,
+      timestamp: new Date().toISOString()
+    });
+
+    setInputMessage('');
+  };
+
+  return (
+    <div className="chat-app">
+      <div className="connection-status">
+        Status: {isConnected ? '🟢 Connected' : '🔴 Disconnected'}
+      </div>
+      
+      <div className="messages">
+        {messages.map((message, index) => (
+          <div key={index} className={`message ${message.type}`}>
+            {message.content}
+          </div>
+        ))}
+      </div>
+      
+      <div className="input-area">
+        <input
+          type="text"
+          value={inputMessage}
+          onChange={(e) => setInputMessage(e.target.value)}
+          onKeyPress={(e) => e.key === 'Enter' && sendMessage()}
+          placeholder="Type a message..."
+          disabled={!isConnected}
+        />
+        <button onClick={sendMessage} disabled={!isConnected}>
+          Send
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default ChatApp;
+```
 

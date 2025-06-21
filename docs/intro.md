@@ -2,46 +2,45 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro! 🚀
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Hey there! Welcome to my personal documentation hub where I'm documenting my journey of learning various technologies. This site serves as my digital notebook - a collection of notes, guides, and discoveries that I can refer back to and share with others.
 
-## Getting Started
+## What You'll Find Here
 
-Get started by **creating a new site**.
+This documentation is organized into two main areas:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 🎯 **Frontend Technologies**
+- **React Setup & Configuration** - Getting started with React projects
+- **React Router DOM** - Client-side routing and navigation
+- **Context API** - State management with React Context
+- **Redux Toolkit** - Advanced state management
+- **React Hook Form** - Form handling and validation
+- **Shadcn UI** - Modern component library
+- **ReCaptcha Integration** - Security and bot prevention
+- **Google Authentication** - OAuth and user authentication
+- **React Charts** - Data visualization
+- **File Upload** - Handling file uploads in React
+- **Axios** - HTTP client for API calls
+- **Socket.io Client** - Real-time communication
 
-### What you'll need
+### ⚙️ **Backend Technologies**
+- **Socket.io Server** - Real-time server implementation
+- **Google Authentication** - Backend OAuth handling
+- **ReCaptcha** - Server-side verification
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## How to Navigate
 
-## Generate a new site
+- Use the sidebar to explore different topics
+- Each guide includes practical examples and code snippets
+- Feel free to use these notes as reference for your own projects
 
-Generate a new Docusaurus site using the **classic template**.
+## My Learning Philosophy
 
-The classic template will automatically be added to your project after you run the command:
+I believe in learning by doing and documenting as I go. These notes are created while I'm actively working with these technologies, so they include real-world examples and common pitfalls I've encountered.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Whether you're learning alongside me or just browsing for reference, I hope you find something useful here!
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+*This site is built with Docusaurus and serves as my personal knowledge base. Feel free to explore and learn with me!*
