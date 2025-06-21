@@ -1,0 +1,28 @@
+{
+  "id": "Backend/ReCaptcha",
+  "title": "Google reCAPTCHA v3 - Complete Implementation Guide",
+  "description": "Step-by-step guide to implementing Google reCAPTCHA v3 in React frontend and Express backend for bot protection and security.",
+  "source": "@site/docs/Backend/ReCaptcha.md",
+  "sourceDirName": "Backend",
+  "slug": "/Backend/ReCaptcha",
+  "permalink": "/docs/Backend/ReCaptcha",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Backend/ReCaptcha.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "ReCaptcha",
+    "title": "Google reCAPTCHA v3 - Complete Implementation Guide",
+    "description": "Step-by-step guide to implementing Google reCAPTCHA v3 in React frontend and Express backend for bot protection and security."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backend Technologies",
+    "permalink": "/docs/category/backend-technologies"
+  },
+  "next": {
+    "title": "Google Auth",
+    "permalink": "/docs/Backend/googleAuth"
+  }
+}

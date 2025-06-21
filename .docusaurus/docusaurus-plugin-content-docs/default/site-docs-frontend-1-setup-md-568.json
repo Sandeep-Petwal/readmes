@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/setup",
+  "title": "React Project Setup & Structure",
+  "description": "Complete guide to setting up a modern React project with proper folder structure, environment configuration, and best practices.",
+  "source": "@site/docs/Frontend/1.setup.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/setup",
+  "permalink": "/docs/Frontend/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/1.setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "React Setup",
+    "title": "React Project Setup & Structure",
+    "description": "Complete guide to setting up a modern React project with proper folder structure, environment configuration, and best practices."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Frontend Technologies",
+    "permalink": "/docs/category/frontend-technologies"
+  },
+  "next": {
+    "title": "React Router",
+    "permalink": "/docs/Frontend/react-router-dom"
+  }
+}

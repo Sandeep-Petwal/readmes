@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/Redux_Connect",
+  "title": "Redux Duck Pattern with Thunk - Complete Guide",
+  "description": "Comprehensive guide to implementing Redux Duck pattern with Thunk middleware for async actions, state management, and best practices.",
+  "source": "@site/docs/Frontend/12.Redux_Connect.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/Redux_Connect",
+  "permalink": "/docs/Frontend/Redux_Connect",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/12.Redux_Connect.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_label": "Redux Connect",
+    "title": "Redux Duck Pattern with Thunk - Complete Guide",
+    "description": "Comprehensive guide to implementing Redux Duck pattern with Thunk middleware for async actions, state management, and best practices."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "File Upload",
+    "permalink": "/docs/Frontend/FileUpload"
+  },
+  "next": {
+    "title": "Frontend Socket.io",
+    "permalink": "/docs/Frontend/socket.io"
+  }
+}

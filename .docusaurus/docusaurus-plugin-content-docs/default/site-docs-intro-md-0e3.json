@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Intro! 🚀",
+  "description": "Hey there! Welcome to my personal documentation hub where I'm documenting my journey of learning various technologies. This site serves as my digital notebook - a collection of notes, guides, and discoveries that I can refer back to and share with others.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Frontend Technologies",
+    "permalink": "/docs/category/frontend-technologies"
+  }
+}

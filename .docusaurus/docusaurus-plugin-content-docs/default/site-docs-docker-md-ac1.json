@@ -1,0 +1,24 @@
+{
+  "id": "Docker",
+  "title": "Docker",
+  "description": "",
+  "source": "@site/docs/Docker.md",
+  "sourceDirName": ".",
+  "slug": "/Docker",
+  "permalink": "/docs/Docker",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Docker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Socket.io",
+    "permalink": "/docs/Backend/socket.io"
+  },
+  "next": {
+    "title": "Git",
+    "permalink": "/docs/Git"
+  }
+}

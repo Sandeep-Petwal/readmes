@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/mdx-blog-post",
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+  "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+  "title": "MDX Blog Post",
+  "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+  "date": "2021-08-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Docusaurus",
+      "permalink": "/blog/tags/docusaurus",
+      "description": "Docusaurus tag description"
+    }
+  ],
+  "readingTime": 0.27,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Sandeep Prasad",
+      "title": "Full Stack Developer & Tech Enthusiast",
+      "url": "https://sandeepprasad.xyz",
+      "page": {
+        "permalink": "/blog/authors/sandeep"
+      },
+      "socials": {
+        "github": "https://github.com/Sandeep-Petwal",
+        "website": "https://sandeepprasad.xyz"
+      },
+      "imageURL": "https://github.com/Sandeep-Petwal.png",
+      "key": "sandeep"
+    }
+  ],
+  "frontMatter": {
+    "slug": "mdx-blog-post",
+    "title": "MDX Blog Post",
+    "authors": [
+      "sandeep"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  },
+  "nextItem": {
+    "title": "Long Blog Post",
+    "permalink": "/blog/long-blog-post"
+  }
+}

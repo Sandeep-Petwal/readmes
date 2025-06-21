@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/Shadcn",
+  "title": "Shadcn UI - Complete Setup Guide",
+  "description": "Step-by-step guide to setting up Shadcn UI with Tailwind CSS, including installation, configuration, and component setup.",
+  "source": "@site/docs/Frontend/6.Shadcn.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/Shadcn",
+  "permalink": "/docs/Frontend/Shadcn",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/6.Shadcn.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_label": "Shadcn UI",
+    "title": "Shadcn UI - Complete Setup Guide",
+    "description": "Step-by-step guide to setting up Shadcn UI with Tailwind CSS, including installation, configuration, and component setup."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Hook Form",
+    "permalink": "/docs/Frontend/react-hook-form"
+  },
+  "next": {
+    "title": "Frontend ReCaptcha",
+    "permalink": "/docs/Frontend/ReCaptcha"
+  }
+}

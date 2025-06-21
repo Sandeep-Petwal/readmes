@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/FileUpload",
+  "title": "React File Upload - Complete Implementation Guide",
+  "description": "Comprehensive guide to implementing file upload functionality in React with validation, preview, and FormData handling for images and PDFs.",
+  "source": "@site/docs/Frontend/11.FileUpload.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/FileUpload",
+  "permalink": "/docs/Frontend/FileUpload",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/11.FileUpload.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_label": "File Upload",
+    "title": "React File Upload - Complete Implementation Guide",
+    "description": "Comprehensive guide to implementing file upload functionality in React with validation, preview, and FormData handling for images and PDFs."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Axios Setup",
+    "permalink": "/docs/Frontend/axios"
+  },
+  "next": {
+    "title": "Redux Connect",
+    "permalink": "/docs/Frontend/Redux_Connect"
+  }
+}

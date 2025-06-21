@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/googleAuth",
+  "title": "Google OAuth - Frontend Implementation Guide",
+  "description": "Complete guide to implementing Google OAuth authentication in React frontend with @react-oauth/google library and token handling.",
+  "source": "@site/docs/Frontend/8.googleAuth.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/googleAuth",
+  "permalink": "/docs/Frontend/googleAuth",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/8.googleAuth.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_label": "Frontend Google Auth",
+    "title": "Google OAuth - Frontend Implementation Guide",
+    "description": "Complete guide to implementing Google OAuth authentication in React frontend with @react-oauth/google library and token handling."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Frontend ReCaptcha",
+    "permalink": "/docs/Frontend/ReCaptcha"
+  },
+  "next": {
+    "title": "React Charts",
+    "permalink": "/docs/Frontend/ReactChart"
+  }
+}

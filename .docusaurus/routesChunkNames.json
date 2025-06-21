@@ -1,0 +1,387 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/blog-99c": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-708-79c"
+      },
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/authors-0b7": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
+  },
+  "/blog/authors/sandeep-885": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-708-79c"
+      },
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-sandeep-091-a82"
+  },
+  "/blog/first-blog-post-89a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-first-blog-poste-27-4a1"
+  },
+  "/blog/long-blog-post-9ad": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-long-blog-post-736-bc7"
+  },
+  "/blog/mdx-blog-post-e9f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mdx-blog-post-593-37b"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/documentation-08a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-708-79c"
+      }
+    ],
+    "__props": "__props---blog-tags-documentationaf-8-3c5"
+  },
+  "/blog/tags/docusaurus-704": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-docusaurus-321-832"
+  },
+  "/blog/tags/facebook-858": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      }
+    ],
+    "__props": "__props---blog-tags-facebooke-5-a-514"
+  },
+  "/blog/tags/hello-299": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      }
+    ],
+    "__props": "__props---blog-tags-hellof-82-2fd"
+  },
+  "/blog/tags/hola-00d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+  },
+  "/blog/tags/learning-07d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-708-79c"
+      }
+    ],
+    "__props": "__props---blog-tags-learning-30-c-d64"
+  },
+  "/blog/tags/personal-f10": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-708-79c"
+      }
+    ],
+    "__props": "__props---blog-tags-personal-2-ac-f89"
+  },
+  "/blog/welcome-d2b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb"
+  },
+  "/blog/why-i-created-this-website-5da": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-why-i-created-this-website-567-0de"
+  },
+  "/docs-65a": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-0d5": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-645": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/Backend/googleAuth-fbe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-google-auth-639-a76"
+  },
+  "/docs/Backend/ReCaptcha-213": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-re-captcha-7-a-9-1d6"
+  },
+  "/docs/Backend/socket.io-ef7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-socket-ioe-14-8a9"
+  },
+  "/docs/category/backend-technologies-151": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-backend-technologies-5-bb-59a"
+  },
+  "/docs/category/frontend-technologies-728": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-frontend-technologies-98-a-963"
+  },
+  "/docs/Docker-287": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dockerac-1-90f"
+  },
+  "/docs/Frontend/axios-201": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-axios-622-78e"
+  },
+  "/docs/Frontend/context-api-c5d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-context-api-11-b-f95"
+  },
+  "/docs/Frontend/FileUpload-906": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-file-upload-0-ac-08c"
+  },
+  "/docs/Frontend/googleAuth-6cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-google-autha-7-d-450"
+  },
+  "/docs/Frontend/react-hook-form-770": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-react-hook-form-31-d-8f2"
+  },
+  "/docs/Frontend/react-router-dom-4c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-react-router-dom-02-a-214"
+  },
+  "/docs/Frontend/ReactChart-86d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-react-chartbf-0-555"
+  },
+  "/docs/Frontend/ReCaptcha-73d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-re-captcha-756-7e8"
+  },
+  "/docs/Frontend/Redux_Connect-f6e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-redux-connect-08-c-46a"
+  },
+  "/docs/Frontend/redux-toolkit-716": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-redux-toolkit-571-05d"
+  },
+  "/docs/Frontend/setup-789": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-setup-568-3b0"
+  },
+  "/docs/Frontend/Shadcn-031": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-shadcna-6-b-bc5"
+  },
+  "/docs/Frontend/socket.io-319": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-frontend-socket-io-91-d-4d4"
+  },
+  "/docs/Git-c79": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-gita-0-e-7db"
+  },
+  "/docs/intro-61d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/Microservice-architecture-c32": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-microservice-architecturec-9-a-cd9"
+  },
+  "/docs/Redis-a2c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-redisf-4-b-3fa"
+  }
+}

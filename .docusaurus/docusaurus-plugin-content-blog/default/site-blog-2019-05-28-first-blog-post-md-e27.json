@@ -1,0 +1,56 @@
+{
+  "permalink": "/blog/first-blog-post",
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+  "source": "@site/blog/2019-05-28-first-blog-post.md",
+  "title": "First Blog Post",
+  "description": "Lorem ipsum dolor sit amet...",
+  "date": "2019-05-28T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Hola",
+      "permalink": "/blog/tags/hola",
+      "description": "Hola tag description"
+    },
+    {
+      "inline": false,
+      "label": "Docusaurus",
+      "permalink": "/blog/tags/docusaurus",
+      "description": "Docusaurus tag description"
+    }
+  ],
+  "readingTime": 0.13,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Sandeep Prasad",
+      "title": "Full Stack Developer & Tech Enthusiast",
+      "url": "https://sandeepprasad.xyz",
+      "page": {
+        "permalink": "/blog/authors/sandeep"
+      },
+      "socials": {
+        "github": "https://github.com/Sandeep-Petwal",
+        "website": "https://sandeepprasad.xyz"
+      },
+      "imageURL": "https://github.com/Sandeep-Petwal.png",
+      "key": "sandeep"
+    }
+  ],
+  "frontMatter": {
+    "slug": "first-blog-post",
+    "title": "First Blog Post",
+    "authors": [
+      "sandeep"
+    ],
+    "tags": [
+      "hola",
+      "docusaurus"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Long Blog Post",
+    "permalink": "/blog/long-blog-post"
+  }
+}

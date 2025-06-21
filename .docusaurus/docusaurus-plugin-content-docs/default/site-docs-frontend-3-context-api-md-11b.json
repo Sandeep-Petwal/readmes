@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/context-api",
+  "title": "React Context API - Complete Guide",
+  "description": "Step-by-step guide to React Context API with providers, consumers, custom hooks, and best practices for state management.",
+  "source": "@site/docs/Frontend/3.context-api.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/context-api",
+  "permalink": "/docs/Frontend/context-api",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/3.context-api.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Context API",
+    "title": "React Context API - Complete Guide",
+    "description": "Step-by-step guide to React Context API with providers, consumers, custom hooks, and best practices for state management."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Router",
+    "permalink": "/docs/Frontend/react-router-dom"
+  },
+  "next": {
+    "title": "Redux Toolkit",
+    "permalink": "/docs/Frontend/redux-toolkit"
+  }
+}

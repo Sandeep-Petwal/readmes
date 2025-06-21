@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/ReactChart",
+  "title": "React Chart.js - Complete Implementation Guide",
+  "description": "Comprehensive guide to implementing Chart.js in React applications with react-chartjs-2, including line charts, bar charts, pie charts, and advanced customization.",
+  "source": "@site/docs/Frontend/9.ReactChart.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/ReactChart",
+  "permalink": "/docs/Frontend/ReactChart",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/9.ReactChart.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_label": "React Charts",
+    "title": "React Chart.js - Complete Implementation Guide",
+    "description": "Comprehensive guide to implementing Chart.js in React applications with react-chartjs-2, including line charts, bar charts, pie charts, and advanced customization."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Frontend Google Auth",
+    "permalink": "/docs/Frontend/googleAuth"
+  },
+  "next": {
+    "title": "Axios Setup",
+    "permalink": "/docs/Frontend/axios"
+  }
+}

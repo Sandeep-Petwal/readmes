@@ -1,0 +1,29 @@
+{
+  "id": "Frontend/ReCaptcha",
+  "title": "Google reCAPTCHA v3 - Frontend Implementation",
+  "description": "Complete guide to implementing Google reCAPTCHA v3 in React frontend with react-google-recaptcha-v3 library and form integration.",
+  "source": "@site/docs/Frontend/7.ReCaptcha.md",
+  "sourceDirName": "Frontend",
+  "slug": "/Frontend/ReCaptcha",
+  "permalink": "/docs/Frontend/ReCaptcha",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sandeep-Petwal/readmes/tree/main/packages/create-docusaurus/templates/shared/docs/Frontend/7.ReCaptcha.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_label": "Frontend ReCaptcha",
+    "title": "Google reCAPTCHA v3 - Frontend Implementation",
+    "description": "Complete guide to implementing Google reCAPTCHA v3 in React frontend with react-google-recaptcha-v3 library and form integration."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Shadcn UI",
+    "permalink": "/docs/Frontend/Shadcn"
+  },
+  "next": {
+    "title": "Frontend Google Auth",
+    "permalink": "/docs/Frontend/googleAuth"
+  }
+}
