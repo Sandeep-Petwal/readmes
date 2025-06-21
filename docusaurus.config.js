@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Learn with Sandeep',
   tagline: 'A living collection of everything I learn and document in tech.',
-  baseUrl: '/',  
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -155,6 +155,11 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      metadata: [
+        { name: 'keywords', content: 'Sandeep Prasad, learn, notes, web development, MERN stack, Git, Docker, Docusaurus, documentation, developer learning, second brain' },
+        { name: 'author', content: 'Sandeep Prasad' },
+        { name: 'robots', content: 'index, follow' },
+      ],
     }),
 };
 
