@@ -187,27 +187,27 @@ For your notes, remember these core ideas:
 
 | Command | Description |
 |---------|-------------|
-| `docker run -d -p <host_port>:<container_port> <image_name>:<tag>` | Run a container in detached mode from a specified image, and map container port to host port. <br>Example: `docker run -d -p 3000:3000 my-mern-app` |
+| `docker run -d -p <host_port>:<container_port> <image_name>:<tag>` | Run a container in detached mode from a specified image, and map container port to host port. <br />Example: `docker run -d -p 3000:3000 my-mern-app` |
 | `docker ps` | List all running containers. |
 | `docker ps -a` | List all containers, including stopped ones. |
-| `docker stop <container_id or name>` | Stop a running container. You can get the container ID from docker ps. <br>Example: `docker stop my-container` |
-| `docker start <container_id or name>` | Start a stopped container. <br>Example: `docker start my-container` |
-| `docker restart <container_id or name>` | Restart a running or stopped container. <br>Example: `docker restart my-container` |
-| `docker rm <container_id or name>` | Remove a stopped container. You can remove multiple containers by specifying multiple IDs. <br>Example: `docker rm my-container` |
-| `docker logs <container_id or name>` | View logs from a container (helpful for debugging or monitoring). <br>Example: `docker logs my-container` |
-| `docker exec -it <container_id or name> /bin/bash` | Open an interactive terminal (bash) inside a running container to inspect or interact with it. <br>Example: `docker exec -it my-container /bin/bash` |
-| `docker attach <container_id or name>` | Attach to a running container's main process (e.g., view output or send input). <br>Example: `docker attach my-container` |
+| `docker stop <container_id or name>` | Stop a running container. You can get the container ID from docker ps. <br />Example: `docker stop my-container` |
+| `docker start <container_id or name>` | Start a stopped container. <br />Example: `docker start my-container` |
+| `docker restart <container_id or name>` | Restart a running or stopped container. <br />Example: `docker restart my-container` |
+| `docker rm <container_id or name>` | Remove a stopped container. You can remove multiple containers by specifying multiple IDs. <br />Example: `docker rm my-container` |
+| `docker logs <container_id or name>` | View logs from a container (helpful for debugging or monitoring). <br />Example: `docker logs my-container` |
+| `docker exec -it <container_id or name> /bin/bash` | Open an interactive terminal (bash) inside a running container to inspect or interact with it. <br />Example: `docker exec -it my-container /bin/bash` |
+| `docker attach <container_id or name>` | Attach to a running container's main process (e.g., view output or send input). <br />Example: `docker attach my-container` |
 
 ### B. Images
 
 | Command | Description |
 |---------|-------------|
-| `docker build -t <image_name>:<tag> <path_to_dockerfile>` | Build a Docker image from a Dockerfile. <br>Example: `docker build -t my-mern-app .` |
+| `docker build -t <image_name>:<tag> <path_to_dockerfile>` | Build a Docker image from a Dockerfile. <br />Example: `docker build -t my-mern-app .` |
 | `docker images` | List all Docker images available on your local machine. |
-| `docker rmi <image_name>:<tag>` | Remove a Docker image from your local system. <br>Example: `docker rmi my-mern-app` |
-| `docker tag <image_id> <new_image_name>:<new_tag>` | Tag an existing image with a new name or version. <br>Example: `docker tag abc123 my-mern-app:v2` |
-| `docker pull <image_name>:<tag>` | Download a Docker image from Docker Hub (or another registry). <br>Example: `docker pull node:14` |
-| `docker push <image_name>:<tag>` | Upload a Docker image to a registry like Docker Hub. <br>Example: `docker push my-mern-app:v1` |
+| `docker rmi <image_name>:<tag>` | Remove a Docker image from your local system. <br />Example: `docker rmi my-mern-app` |
+| `docker tag <image_id> <new_image_name>:<new_tag>` | Tag an existing image with a new name or version. <br />Example: `docker tag abc123 my-mern-app:v2` |
+| `docker pull <image_name>:<tag>` | Download a Docker image from Docker Hub (or another registry). <br />Example: `docker pull node:14` |
+| `docker push <image_name>:<tag>` | Upload a Docker image to a registry like Docker Hub. <br />Example: `docker push my-mern-app:v1` |
 | `docker history <image_name>:<tag>` | View the history of an image, including layers and commands used to create it. |
 | `docker inspect <image_name>:<tag>` | Get detailed information (JSON format) about a Docker image, including configuration and layers. |
 
