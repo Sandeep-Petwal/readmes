@@ -162,6 +162,20 @@ const config = {
         { name: 'robots', content: 'index, follow' },
       ],
     }),
+
+
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        language: ['en'],
+      },
+    ],
+  ]
 };
 
 export default config;
