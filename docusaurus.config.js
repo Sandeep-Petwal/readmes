@@ -12,7 +12,6 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Learn with Sandeep',
   tagline: 'A living collection of everything I learn and document in tech.',
-  baseUrl: '/',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -21,7 +20,9 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://learn.sandeepprasad.xyz',
+  url: 'https://Sandeep-Petwal.github.io',
+  baseUrl: '/readmes/',
+
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
 
