@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreadmes=self.webpackChunkreadmes||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/readmes/blog","blogTitle":"Blog","authorsListPath":"/readmes/blog/authors"}')}}]);

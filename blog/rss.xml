@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Learn with Sandeep Blog</title>
-        <link>https://learn.sandeepprasad.xyz/blog</link>
+        <link>https://Sandeep-Petwal.github.io/readmes/blog</link>
         <description>Learn with Sandeep Blog</description>
         <lastBuildDate>Mon, 15 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,12 +10,12 @@
         <language>en</language>
         <item>
             <title><![CDATA[Why I Created This Website - My Learning Journey]]></title>
-            <link>https://learn.sandeepprasad.xyz/blog/why-i-created-this-website</link>
-            <guid>https://learn.sandeepprasad.xyz/blog/why-i-created-this-website</guid>
+            <link>https://Sandeep-Petwal.github.io/readmes/blog/why-i-created-this-website</link>
+            <guid>https://Sandeep-Petwal.github.io/readmes/blog/why-i-created-this-website</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Hey there! 👋 I'm Sandeep, and I want to share why I decided to create this documentation website and what it means to me.]]></description>
             <content:encoded><![CDATA[<p>Hey there! 👋 I'm Sandeep, and I want to share why I decided to create this documentation website and what it means to me.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem-i-was-facing">The Problem I Was Facing<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#the-problem-i-was-facing" class="hash-link" aria-label="Direct link to The Problem I Was Facing" title="Direct link to The Problem I Was Facing">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem-i-was-facing">The Problem I Was Facing<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#the-problem-i-was-facing" class="hash-link" aria-label="Direct link to The Problem I Was Facing" title="Direct link to The Problem I Was Facing">​</a></h2>
 <p>As a developer constantly learning new technologies, I found myself in a familiar cycle:</p>
 <ol>
 <li><strong>Learn something new</strong> → Get excited about a new framework/library</li>
@@ -24,7 +24,7 @@
 <li><strong>Forget everything</strong> → When I need to use it again, I can't remember how!</li>
 </ol>
 <p>Sound familiar? I was losing valuable knowledge because I wasn't documenting my learning process properly.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-solution-learning-in-public">The Solution: Learning in Public<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#the-solution-learning-in-public" class="hash-link" aria-label="Direct link to The Solution: Learning in Public" title="Direct link to The Solution: Learning in Public">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-solution-learning-in-public">The Solution: Learning in Public<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#the-solution-learning-in-public" class="hash-link" aria-label="Direct link to The Solution: Learning in Public" title="Direct link to The Solution: Learning in Public">​</a></h2>
 <p>I decided to create this website as my <strong>personal knowledge base</strong> - a place where I can:</p>
 <ul>
 <li>📝 <strong>Document everything I learn</strong> with real examples</li>
@@ -32,9 +32,9 @@
 <li>🚀 <strong>Share with others</strong> who might be on similar learning paths</li>
 <li>📈 <strong>Track my progress</strong> and see how far I've come</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-youll-find-here">What You'll Find Here<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#what-youll-find-here" class="hash-link" aria-label="Direct link to What You'll Find Here" title="Direct link to What You'll Find Here">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-youll-find-here">What You'll Find Here<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#what-youll-find-here" class="hash-link" aria-label="Direct link to What You'll Find Here" title="Direct link to What You'll Find Here">​</a></h2>
 <p>This site is organized into two main areas:</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-frontend-technologies">🎯 Frontend Technologies<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#-frontend-technologies" class="hash-link" aria-label="Direct link to 🎯 Frontend Technologies" title="Direct link to 🎯 Frontend Technologies">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-frontend-technologies">🎯 Frontend Technologies<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#-frontend-technologies" class="hash-link" aria-label="Direct link to 🎯 Frontend Technologies" title="Direct link to 🎯 Frontend Technologies">​</a></h3>
 <p>From React basics to advanced concepts like Redux Toolkit, Socket.io client integration, and modern UI libraries. Each guide includes:</p>
 <ul>
 <li>Setup instructions</li>
@@ -42,9 +42,9 @@
 <li>Common pitfalls I encountered</li>
 <li>Best practices I discovered</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-backend-technologies">⚙️ Backend Technologies<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#%EF%B8%8F-backend-technologies" class="hash-link" aria-label="Direct link to ⚙️ Backend Technologies" title="Direct link to ⚙️ Backend Technologies">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-backend-technologies">⚙️ Backend Technologies<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#%EF%B8%8F-backend-technologies" class="hash-link" aria-label="Direct link to ⚙️ Backend Technologies" title="Direct link to ⚙️ Backend Technologies">​</a></h3>
 <p>Server-side development, authentication systems, real-time communication, and security implementations. Everything I learn about building robust backend services.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-learning-philosophy">My Learning Philosophy<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#my-learning-philosophy" class="hash-link" aria-label="Direct link to My Learning Philosophy" title="Direct link to My Learning Philosophy">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-learning-philosophy">My Learning Philosophy<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#my-learning-philosophy" class="hash-link" aria-label="Direct link to My Learning Philosophy" title="Direct link to My Learning Philosophy">​</a></h2>
 <p>I believe in <strong>learning by doing</strong> and <strong>documenting as I go</strong>. These aren't just tutorials - they're my actual notes from building real projects. You'll find:</p>
 <ul>
 <li>✅ Working code examples</li>
@@ -52,7 +52,7 @@
 <li>💡 Tips and tricks I discovered</li>
 <li>🔧 Practical implementations</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why This Matters<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#why-this-matters" class="hash-link" aria-label="Direct link to Why This Matters" title="Direct link to Why This Matters">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why This Matters<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#why-this-matters" class="hash-link" aria-label="Direct link to Why This Matters" title="Direct link to Why This Matters">​</a></h2>
 <p>Creating this site has already helped me in several ways:</p>
 <ol>
 <li><strong>Better Retention</strong> - Writing about what I learn helps me remember it better</li>
@@ -60,7 +60,7 @@
 <li><strong>Community Building</strong> - Sharing knowledge helps others and creates connections</li>
 <li><strong>Portfolio</strong> - This site itself is a testament to my learning journey</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-me-on-this-journey">Join Me on This Journey<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#join-me-on-this-journey" class="hash-link" aria-label="Direct link to Join Me on This Journey" title="Direct link to Join Me on This Journey">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-me-on-this-journey">Join Me on This Journey<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#join-me-on-this-journey" class="hash-link" aria-label="Direct link to Join Me on This Journey" title="Direct link to Join Me on This Journey">​</a></h2>
 <p>Whether you're:</p>
 <ul>
 <li>Learning the same technologies</li>
@@ -69,7 +69,7 @@
 <li>Building your own knowledge base</li>
 </ul>
 <p>You're welcome here! Feel free to explore, learn, and even reach out if you have questions or suggestions.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://learn.sandeepprasad.xyz/blog/why-i-created-this-website#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://sandeep-petwal.github.io/readmes/blog/why-i-created-this-website#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
 <p>I'll be continuously adding new content as I learn:</p>
 <ul>
 <li>New frameworks and libraries</li>
@@ -87,8 +87,8 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://learn.sandeepprasad.xyz/blog/welcome</link>
-            <guid>https://learn.sandeepprasad.xyz/blog/welcome</guid>
+            <link>https://Sandeep-Petwal.github.io/readmes/blog/welcome</link>
+            <guid>https://Sandeep-Petwal.github.io/readmes/blog/welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
             <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
@@ -101,7 +101,7 @@
 <li><code>2019-05-30-welcome/index.md</code></li>
 </ul>
 <p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://learn.sandeepprasad.xyz/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://sandeep-petwal.github.io/readmes/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
 <p>The blog supports tags as well!</p>
 <p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
             <category>Facebook</category>
@@ -110,8 +110,8 @@
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://learn.sandeepprasad.xyz/blog/mdx-blog-post</link>
-            <guid>https://learn.sandeepprasad.xyz/blog/mdx-blog-post</guid>
+            <link>https://Sandeep-Petwal.github.io/readmes/blog/mdx-blog-post</link>
+            <guid>https://Sandeep-Petwal.github.io/readmes/blog/mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
             <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
@@ -124,8 +124,8 @@
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://learn.sandeepprasad.xyz/blog/long-blog-post</link>
-            <guid>https://learn.sandeepprasad.xyz/blog/long-blog-post</guid>
+            <link>https://Sandeep-Petwal.github.io/readmes/blog/long-blog-post</link>
+            <guid>https://Sandeep-Petwal.github.io/readmes/blog/long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
             <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -151,8 +151,8 @@
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://learn.sandeepprasad.xyz/blog/first-blog-post</link>
-            <guid>https://learn.sandeepprasad.xyz/blog/first-blog-post</guid>
+            <link>https://Sandeep-Petwal.github.io/readmes/blog/first-blog-post</link>
+            <guid>https://Sandeep-Petwal.github.io/readmes/blog/first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
             <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
