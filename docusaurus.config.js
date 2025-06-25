@@ -161,6 +161,16 @@ const config = {
         { name: 'author', content: 'Sandeep Prasad' },
         { name: 'robots', content: 'index, follow' },
       ],
+
+      algolia: {
+        appId: 'M3NYB9R6NK',
+        apiKey: '0ca4557fdd41beccebcbfc4c31c217a0',
+        indexName: 'learn-sandeepprasad',
+        contextualSearch: true,
+        insights: true,
+        debug: false,
+      },
+
     }),
 };
 
