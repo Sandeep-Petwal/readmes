@@ -166,20 +166,6 @@ services:
 
 ---
 
-## 8. Conclusion and Next Steps
-
-Containerization, with Docker at its forefront, has revolutionized how software is developed, delivered, and deployed. It's a cornerstone of modern DevOps practices and cloud-native application development.
-
-For your notes, remember these core ideas:
-- **Containerization = Isolated, Portable Packages.**
-- **Docker = The Tool to Implement It.**
-- **Image = Blueprint (read-only).**
-- **Container = Running Instance (read-write layer on top).**
-- **Dockerfile = Recipe for building an Image.**
-- **Benefits:** Consistency, Efficiency, Scalability, Portability.
-
-
-
 
 ## Commands
 
@@ -242,7 +228,7 @@ Docker Compose is a tool for defining and running multi-container Docker applica
 
 **Key Idea:** It simplifies the process of configuring, running, and linking multiple interdependent Docker containers.
 
-## 2. The docker-compose.yml File: The Heart of Compose
+## 2. The docker-compose.yml File
 
 The core of Docker Compose is the `docker-compose.yml` (or `compose.yaml`, the preferred modern name) file. This YAML file is a declarative configuration that describes your entire application stack.
 
