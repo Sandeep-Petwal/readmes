@@ -1,0 +1,113 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background: var(--ifm-background-surface-color);
+}
+
+.featuresHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.featuresTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.featuresSubtitle {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.featureCard {
+  background: var(--ifm-card-background-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: all 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  position: relative;
+  overflow: hidden;
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--ifm-color-primary);
+}
+
+.featureIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.iconText {
+  font-size: 2rem;
+  color: white;
+}
+
+.featureContent {
+  text-align: center;
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  margin-bottom: 1rem;
+}
+
+.featureDescription {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.featureLink {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--ifm-color-primary-lighter);
+}
+
+.featureLink:hover {
+  color: white;
+  background: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 2rem 0;
+  }
+  
+  .featuresTitle {
+    font-size: 2rem;
+  }
+  
+  .featureCard {
+    margin-bottom: 2rem;
+  }
+}
