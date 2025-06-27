@@ -1,8 +1,0 @@
-{
-  "label": "Backend",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Dive into server-side development, real-time communication with Socket.io, authentication systems, and security implementations."
-  }
-} 
