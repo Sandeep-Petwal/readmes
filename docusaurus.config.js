@@ -115,11 +115,11 @@ const config = {
             items: [
               {
                 label: 'Frontend Technologies',
-                to: '/docs/category/frontend-technologies',
+                to: '/docs/category/frontend',
               },
               {
                 label: 'Backend Technologies',
-                to: '/docs/category/backend-technologies',
+                to: '/docs/category/backend',
               },
             ],
           },
