@@ -1,12 +1,12 @@
 ---
-sidebar_label: 'Vim'
-title: 'Vim Editor - Complete Guide'
-description: 'Comprehensive guide to Vim editor including modes, commands, navigation, editing, and advanced features for efficient text editing.'
+sidebar_label: 'Typescript'
+title: 'Typescript Guide'
+description: 'Beginners friendly guide to TS.'
 ---
 
+# Typescript
 
-
-TypeScript is a statically typed superset of JavaScript. This means it adds optional static typing to JavaScript, allowing us to catch errors during development rather than at runtime.
+### TypeScript is a statically typed superset of JavaScript. This means it adds optional static typing to JavaScript, allowing us to catch errors during development rather than at runtime.
 
 - Superset = everything that js have + additional feature
 
@@ -41,7 +41,11 @@ Why Do We Use TypeScript ?
 -   ** Prevents bugs**
 -   **Developer Experience**
 
-**📌**** Setting Up TypeScript**
+<br>
+
+
+
+**📌 Setting Up TypeScript**
 
 - **Install Node.js and npm (Node Package Manager):** TypeScript relies on Node.js and npm. Download and install them from the official Node.js website (nodejs.org).
 
@@ -69,9 +73,13 @@ node index.js
 
 tsc --init 
 
-**📌**** TypeScript Basics**
 
-**1️****. Type Annotations :** Type annotations explicitly specify the type of a variable, parameter, or return value.
+<br>
+
+
+**📌 TypeScript Basics**
+
+**1️ Type Annotations :** Type annotations explicitly specify the type of a variable, parameter, or return value.
 
 -   **Syntax**:  variable: type
 
@@ -98,7 +106,11 @@ tsc --init 
 - **never**: Represents values that never occur.
 
 - **object**: Represents non-primitive types.
+<br>
 
+
+
+``` typescript
 let isDone:  boolean  =  false;
 
 let  decimal: number =  6;
@@ -112,9 +124,11 @@ let tuple:  [string, number]  =  ["hello",  10];
 enum  Color  {Red,  Green,  Blue}
 
 let c:  Color  =  Color.Green;
+```
 
-**📌****Interfaces****: **Interfaces define contracts for the shape of objects. They specify the properties and methods that an object *must have*.
+**📌Interfaces :** Interfaces define contracts for the shape of objects. They specify the properties and methods that an object *must have*.
 
+``` typescript
 interface  Person  {
 
   firstName:  string;
@@ -157,10 +171,13 @@ interface  Employee  extends  Person  {
 
 }
 
-**📌**** Using Type Aliases**
+```
+
+**📌 Using Type Aliases**
 
 Instead of repeating object structures, we can define **type aliases**.
 
+``` typescript
 type Car  =  {
 
   brand:  string;
@@ -180,8 +197,9 @@ let myCar:  Car  =  {
   year:  2023,
 
 };
+```
 
-**📌**** Interfaces vs Type Aliases**
+**📌 Interfaces vs Type Aliases**
 
 Both **interfaces** and **type aliases** allow you to define the structure of an object, but they have different use cases.
 
@@ -194,11 +212,17 @@ Both **interfaces** and **type aliases** allow you to define the structure of an
 2\. A **type alias** can define object structures but can also be used for **primitive types** and **unions**.
 
 ✔ Can define **objects, primitives, and union types**.\
-✔ Cannot be extended like interfaces.\
-**📌**** Functions in TypeScript**
+✔ Cannot be extended like interfaces.
+
+
+<br>
+
+
+**📌 Functions in TypeScript**
 
 You can explicitly specify types for **parameters** and **return values**.
 
+``` typescript
 function greet(name:  string, optional-age?: number, city:string="Default"):  string  {
 
  if  (optional-age)  {
@@ -213,18 +237,24 @@ function greet(name:  string, optional-age?: number, city:string="Default"):  st
 
  }
 
-  console.log(greet("Sanju"));
+console.log(greet("Sanju"));
 
-  console.log(greet("Sanju",  25));
+console.log(greet("Sanju",  25));
 
 const square =  (num: number): number => num * num;
 
 console.log(square(4));  // ✅ 16
+```
 
-**📌**** Object Types in TypeScript**
+<br>
+
+
+**📌 Object Types in TypeScript**
 
 In JavaScript, objects are dynamic, but in TypeScript, we can **define the structure** of objects using **type annotations**.
 
+
+``` typescript
 type ProductAddress  =  {
 
     city:  string;
@@ -262,33 +292,40 @@ city :  "Tehri",
 country :  "India"
 
  }
-
 };
+```
+<br>
 
-**📌**** Arrays**
+
+**📌 Arrays**
 
 **TypeScript allows you to enforce type safety by specifying the type of elements an array can hold**
 
+``` typescript
 const names:  string[]  =  ["Something"];\
 names.push("Dylan"); // no error\
 // names.push(3); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+```
+
 
 **The readonly keyword can prevent arrays from being changed**
 
+``` typescript
 const superHeros:  readonly  string[]  =  ["Superman",  "Batman",  "Wonder Woman"];
 
 names.push("Ironman");
 
 console.log(superHeros);  // ✅ ["Superman", "Batman", "Wonder Woman"]
+```
 
-**
 
-**
+<br>
 
-**📌**** What Are Enums?**
+**📌 What Are Enums?**
 
 Enums (**short for "enumerations"**) allow you to define a set of **constant values** with human-readable names. This makes your code more readable and maintainable.
 
+``` typescript
 enum  Status  {
 
  Pending, // 0
@@ -318,11 +355,14 @@ enum  Role  {
 let userRole:  Role  =  Role.Admin;
 
 console.log(userRole);  // ✅ Output: ADMIN
+```
 
 Note : TypeScript also allows you to mix string and number values in an enum, though it's not common.
 
 Numeric enums support **reverse mapping**, meaning you can get the enum name from a value.
 
+
+``` typescript
 enum  Color  {
 
  Red  =  1,
@@ -334,12 +374,16 @@ enum  Color  {
 console.log(Color.Red); // ✅ 1
 
 console.log(Color[1]); // ✅ "Red" (reverse mapping)
+```
 
-**📌**** Tuples (SAF)**
+<br>
+
+**📌 Tuples (SAF)**
 
 A **Tuple** is a special type in TypeScript that allows you to define **an array with a fixed number of elements** where each element has a specific type.\
 Unlike regular arrays, tuples define the exact number and type , order of elements.
 
+``` typescript
 let person:  [string, number,  Boolean?]  =  ["Sandeep",  30];
 
 person =  [30,  "Sandeep",  true];  // ❌ Error: Type 'number' is not assignable to type 'string'
@@ -351,11 +395,15 @@ let  [name, age]  = person;
 // If you don't want to allow modifications to a tuple, use readonly.
 
 let coordinates:  readonly  [number, number]  =  [10,  20];
+```
+
+<br>
 
 **📌 Type Assertions**
 
 Type assertions allow you to **tell TypeScript the exact type** of a variable when TypeScript cannot infer it properly.
 
+``` typescript
 let  value: any =  "Hello, TypeScript";
 
 let length1: number =  (value  as  string).length;
@@ -365,8 +413,12 @@ let length2: number =  (<string>value).length;  // Alternative syntax
 console.log(length1);  // ✅ 17
 
 console.log(length2);  // ✅ 17
+```
 
-**📌****Union & Intersection & Literals Types**
+
+<br>
+
+**📌Union & Intersection & Literals Types**
 
 **Union (|)** Allows a variable to have **multiple possible types**.
 
@@ -403,6 +455,8 @@ let emp:  AdminEmployee  =  {
 console.log(emp);
 ```
 
+<br>
+
 **Literal Types**
 
 You can restrict a variable to specific values.
@@ -419,6 +473,7 @@ orderStatus =  "approved";  // ✅ Allowed
 orderStatus =  "shipped";  // ❌ Error
 ```
 
+<br>
 
 
 **📌 Classes in TypeScript**
@@ -463,7 +518,9 @@ console.log(emp.salary);  // ❌ Error: Property 'salary' is private
 
 ```
 
-**📌**** TypeScript in React & Node.js**
+<br>
+
+**📌 TypeScript in React & Node.js**
 
 - **To use TypeScript in a React project:**
 
@@ -526,8 +583,11 @@ export  default  MyPage;
 
 ```
 
-**📌 TypeScript Generics :\
-**Generics allow you to write reusable, type-safe code. They're like function parameters for types.
+<br>
+
+**📌 TypeScript Generics :**
+
+Generics allow you to write reusable, type-safe code. They're like function parameters for types.
 
 Instead of writing:
 
