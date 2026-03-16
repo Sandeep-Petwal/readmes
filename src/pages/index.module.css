@@ -18,12 +18,17 @@
 /* Hero Section */
 .heroBanner {
   position: relative;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--ifm-navbar-height));
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  padding: 0;
   background: var(--gradient-primary);
+}
+
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #0b1220 0%, #1f2937 100%);
 }
 
 .heroBackground {
@@ -46,6 +51,13 @@
   border-radius: 50%;
   opacity: 0.1;
   animation: float 20s infinite ease-in-out;
+}
+
+[data-theme='dark'] .shape1,
+[data-theme='dark'] .shape2,
+[data-theme='dark'] .shape3,
+[data-theme='dark'] .shape4 {
+  opacity: 0.08;
 }
 
 .shape1 {
@@ -96,6 +108,9 @@
   margin: 0 auto;
   padding: 2rem 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   z-index: 1;
 }
@@ -112,6 +127,11 @@
   font-size: 0.9rem;
   font-weight: 500;
   animation: fadeInUp 0.8s ease-out;
+}
+
+[data-theme='dark'] .heroBadge {
+  background: rgba(17, 25, 40, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .heroTitle {
@@ -141,6 +161,10 @@
   margin-left: auto;
   margin-right: auto;
   animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+[data-theme='dark'] .heroSubtitle {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .heroStats {
@@ -196,12 +220,24 @@
   gap: 0.5rem;
 }
 
+[data-theme='dark'] .primaryButton {
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
 .primaryButton:hover {
   background: #f8f9fa;
   color: #5a67d8;
   transform: translateY(-2px);
   box-shadow: var(--shadow-strong);
   text-decoration: none;
+}
+
+[data-theme='dark'] .primaryButton:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: white;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
 }
 
 .secondaryButton {
@@ -217,11 +253,21 @@
   backdrop-filter: blur(10px);
 }
 
+[data-theme='dark'] .secondaryButton {
+  border-color: rgba(255, 255, 255, 0.22);
+  background: rgba(0, 0, 0, 0.12);
+}
+
 .secondaryButton:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.5);
   color: white;
   text-decoration: none;
+}
+
+[data-theme='dark'] .secondaryButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
 @keyframes fadeInUp {
@@ -567,7 +613,7 @@
 /* Responsive Design */
 @media screen and (max-width: 996px) {
   .heroBanner {
-    min-height: 80vh;
+    min-height: calc(80vh - var(--ifm-navbar-height));
   }
   
   .heroTitle {

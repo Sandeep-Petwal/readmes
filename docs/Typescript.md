@@ -41,7 +41,7 @@ Why Do We Use TypeScript ?
 -   ** Prevents bugs**
 -   **Developer Experience**
 
-<br>
+<br />
 
 
 
@@ -74,7 +74,7 @@ node index.js
 tsc --init 
 
 
-<br>
+<br />
 
 
 **📌 TypeScript Basics**
@@ -106,7 +106,7 @@ tsc --init 
 - **never**: Represents values that never occur.
 
 - **object**: Represents non-primitive types.
-<br>
+<br />
 
 
 
@@ -215,7 +215,7 @@ Both **interfaces** and **type aliases** allow you to define the structure of an
 ✔ Cannot be extended like interfaces.
 
 
-<br>
+<br />
 
 
 **📌 Functions in TypeScript**
@@ -246,7 +246,7 @@ const square =  (num: number): number => num * num;
 console.log(square(4));  // ✅ 16
 ```
 
-<br>
+<br />
 
 
 **📌 Object Types in TypeScript**
@@ -294,7 +294,7 @@ country :  "India"
  }
 };
 ```
-<br>
+<br />
 
 
 **📌 Arrays**
@@ -319,7 +319,7 @@ console.log(superHeros);  // ✅ ["Superman", "Batman", "Wonder Woman"]
 ```
 
 
-<br>
+<br />
 
 **📌 What Are Enums?**
 
@@ -376,7 +376,7 @@ console.log(Color.Red); // ✅ 1
 console.log(Color[1]); // ✅ "Red" (reverse mapping)
 ```
 
-<br>
+<br />
 
 **📌 Tuples (SAF)**
 
@@ -397,7 +397,7 @@ let  [name, age]  = person;
 let coordinates:  readonly  [number, number]  =  [10,  20];
 ```
 
-<br>
+<br />
 
 **📌 Type Assertions**
 
@@ -416,7 +416,7 @@ console.log(length2);  // ✅ 17
 ```
 
 
-<br>
+<br />
 
 **📌Union & Intersection & Literals Types**
 
@@ -455,7 +455,7 @@ let emp:  AdminEmployee  =  {
 console.log(emp);
 ```
 
-<br>
+<br />
 
 **Literal Types**
 
@@ -473,7 +473,7 @@ orderStatus =  "approved";  // ✅ Allowed
 orderStatus =  "shipped";  // ❌ Error
 ```
 
-<br>
+<br />
 
 
 **📌 Classes in TypeScript**
@@ -518,7 +518,7 @@ console.log(emp.salary);  // ❌ Error: Property 'salary' is private
 
 ```
 
-<br>
+<br />
 
 **📌 TypeScript in React & Node.js**
 
@@ -581,9 +581,10 @@ const  MyPage:  React.FC<MyPageProps>  =  (props)  =>  {
 
 export  default  MyPage;
 
+
 ```
 
-<br>
+<br />
 
 **📌 TypeScript Generics :**
 
@@ -625,9 +626,9 @@ Now T can be any type --- string, number, object, etc.
 
 A. **Record Type in TypeScript : **  The Record type is a utility type that creates an object type with specified keys and values. It's incredibly useful for defining dictionaries, maps, or any object with a known set of keys and consistent value types. 
 
-**Basic Syntax : **Record<Keys, Type>
+**Basic Syntax : **`Record<Keys, Type>`
 
-**Keys**: The type of the keys (usually string, number, or symbol)
+**Keys**: The type of the keys (usually string, number  , or symbol)
 
 **Type:** The type of the values
 

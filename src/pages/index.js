@@ -21,20 +21,20 @@ function HomepageHeader() {
       </div>
       
       <div className={styles.heroContent}>
-        <div className={styles.heroBadge}>
+        {/* <div className={styles.heroBadge}>
           <span>✨ Continuously Learning</span>
-        </div>
+        </div> */}
         
         <Heading as="h1" className={styles.heroTitle}>
           Learn. Build. <span className={styles.highlight}>Document.</span>
         </Heading>
         
-        <p className={styles.heroSubtitle}>
+        {/* <p className={styles.heroSubtitle}>
           Your gateway to modern web technologies, carefully curated notes, 
           and hands-on tutorials from my development journey.
-        </p>
+        </p> */}
 
-        <div className={styles.heroStats}>
+        {/* <div className={styles.heroStats}>
           <div className={styles.stat}>
             <span className={styles.statNumber}>50+</span>
             <span className={styles.statLabel}>Guides</span>
@@ -47,7 +47,7 @@ function HomepageHeader() {
             <span className={styles.statNumber}>∞</span>
             <span className={styles.statLabel}>Learning</span>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.buttons}>
           <Link
