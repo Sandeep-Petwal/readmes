@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://learn.sandeepprasad.xyz',
+  url: 'https://learn.sandeep.cv',
   baseUrl: '/',
 
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -96,7 +96,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://sandeepprasad.xyz/',
+            href: 'https://sandeep.cv/',
             label: 'Website',
             position: 'right',
           },
@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 label: 'Website',
-                href: 'https://sandeepprasad.xyz/',
+                href: 'https://sandeep.cv/',
               },
               {
                 label: 'GitHub',
