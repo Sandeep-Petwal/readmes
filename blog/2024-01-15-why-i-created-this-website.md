@@ -1,6 +1,6 @@
 ---
 slug: why-i-created-this-website
-title: Why I Created This Website - My Learning Journey
+title: Why I Created This Website?
 authors: [sandeep]
 tags: [learning, documentation, personal]
 ---
