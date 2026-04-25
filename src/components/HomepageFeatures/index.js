@@ -8,9 +8,7 @@ const FeatureList = [
     title: '🎯 Frontend Technologies',
     description: (
       <>
-        Explore my journey through React ecosystem, state management, UI libraries, 
-        authentication, and modern frontend development practices. From basic setup 
-        to advanced concepts.
+        Explore my journey through React ecosystem.
       </>
     ),
     link: '/docs/category/frontend-technologies',

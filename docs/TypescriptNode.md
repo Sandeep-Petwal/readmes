@@ -1,4 +1,4 @@
-# Node.js + TypeScript Production Setup Template
+# Node + TS Production
 
 A comprehensive guide to set up a production-ready Node.js server with TypeScript, Express from scratch.
 
