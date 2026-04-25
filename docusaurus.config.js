@@ -86,7 +86,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Learn with Sandeep',
+        title: ' ',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -154,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Sandeep Prasad. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Sandeep Prasad · Learn. Build. Document.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -28,3 +28,120 @@
   --ifm-color-primary-lightest: #ff9478;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Footer branding */
+.footer {
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at center, rgba(252, 61, 3, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.footer__links {
+  position: relative;
+  z-index: 1;
+}
+
+.footer__logo {
+  position: relative;
+  z-index: 1;
+  opacity: 0.95;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.footer__link-item {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  position: relative;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.02em;
+}
+
+[data-theme='dark'] .footer {
+  background: #131313;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+[data-theme='dark'] .footer::before {
+  background: radial-gradient(circle at center, rgba(252, 61, 3, 0.08) 0%, rgba(19, 19, 19, 0) 70%);
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* Header / Navbar branding */
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] .navbar {
+  background: #131313;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar__title {
+  letter-spacing: -0.02em;
+}
+
+.navbar__link {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+.navbar__brand:hover {
+  color: inherit;
+}
+
+/* Navbar buttons (when you use the "button" class on navbar items) */
+.navbar .button {
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.navbar .button.button--primary {
+  background: #fc3d03;
+  border-color: #fc3d03;
+  color: #000;
+}
+
+.navbar .button.button--primary:hover {
+  background: #ff5c2a;
+  border-color: #ff5c2a;
+  color: #000;
+}

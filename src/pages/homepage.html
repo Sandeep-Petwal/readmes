@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Space+Grotesk:wght@600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#ffb4a2",
+                        "primary-fixed": "#ffdad2",
+                        "primary-container": "#ff562c",
+                        "on-tertiary": "#003061",
+                        "tertiary-container": "#3391ff",
+                        "inverse-on-surface": "#313030",
+                        "on-secondary-fixed": "#1c1b1b",
+                        "on-primary": "#621100",
+                        "primary": "#ffb4a2",
+                        "tertiary-fixed": "#d5e3ff",
+                        "surface-dim": "#131313",
+                        "outline-variant": "#5d3f38",
+                        "surface": "#131313",
+                        "on-secondary-fixed-variant": "#474746",
+                        "on-primary-fixed-variant": "#8a1c00",
+                        "surface-bright": "#3a3939",
+                        "inverse-surface": "#e5e2e1",
+                        "on-error": "#690005",
+                        "inverse-primary": "#b42800",
+                        "on-background": "#e5e2e1",
+                        "on-surface-variant": "#e7bdb3",
+                        "on-secondary-container": "#b7b5b4",
+                        "primary-fixed-dim": "#ffb4a2",
+                        "background": "#131313",
+                        "on-secondary": "#313030",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "error": "#ffb4ab",
+                        "on-primary-container": "#560e00",
+                        "error-container": "#93000a",
+                        "tertiary": "#a7c8ff",
+                        "surface-container-lowest": "#0e0e0e",
+                        "surface-container": "#201f1f",
+                        "surface-container-low": "#1c1b1b",
+                        "tertiary-fixed-dim": "#a7c8ff",
+                        "secondary-container": "#474746",
+                        "on-tertiary-fixed-variant": "#004689",
+                        "on-surface": "#e5e2e1",
+                        "surface-container-high": "#2a2a2a",
+                        "outline": "#ae887f",
+                        "surface-container-highest": "#353534",
+                        "on-primary-fixed": "#3c0700",
+                        "on-tertiary-fixed": "#001b3c",
+                        "surface-variant": "#353534",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-container": "#002955",
+                        "secondary-fixed": "#e5e2e1",
+                        "secondary": "#c8c6c5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-page": "40px",
+                        "container-max-width": "1280px",
+                        "stack-md": "24px",
+                        "base": "8px",
+                        "gutter": "24px",
+                        "stack-lg": "48px",
+                        "stack-sm": "12px",
+                        "content-max-width": "800px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "h3": ["Space Grotesk"],
+                        "label-caps": ["Space Grotesk"],
+                        "body-lg": ["Inter"],
+                        "h1": ["Space Grotesk"],
+                        "code": ["Space Grotesk"],
+                        "h2": ["Space Grotesk"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}],
+                        "h3": ["24px", {"lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}],
+                        "h1": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                        "code": ["14px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}],
+                        "h2": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .primary-orange { color: #fc3d03; }
+        .bg-primary-orange { background-color: #fc3d03; }
+        .border-primary-orange { border-color: #fc3d03; }
+        .glow-radial {
+            background: radial-gradient(circle at center, rgba(252, 61, 3, 0.08) 0%, rgba(19, 19, 19, 0) 70%);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-container selection:text-on-primary-container overflow-hidden">
+<main class="relative h-screen w-full flex items-center justify-center">
+<!-- Subtle Glow Background -->
+<div class="absolute inset-0 glow-radial pointer-events-none"></div>
+<!-- Hero Section Canvas -->
+<section class="relative z-10 w-full max-w-container-max-width px-margin-page flex flex-col items-center text-center">
+<!-- Headline -->
+<h1 class="font-h1 text-[clamp(3.5rem,10vw,7rem)] font-black tracking-tighter text-white leading-[0.9] mb-12">
+                Learn.<br/>Build.<br/>Document.
+            </h1>
+<!-- Buttons -->
+<div class="flex flex-col sm:flex-row gap-gutter">
+<button class="px-10 py-4 bg-primary-orange text-black font-space-grotesk font-bold text-lg uppercase tracking-wider transition-all hover:scale-[1.02] active:scale-95">
+                    Start exploring
+                </button>
+<button class="px-10 py-4 bg-transparent border border-white text-white font-space-grotesk font-bold text-lg uppercase tracking-wider transition-all hover:bg-white hover:text-black active:scale-95">
+                    Latest updates
+                </button>
+</div>
+</section>
+</main>
+</body></html>
