@@ -1317,7 +1317,7 @@ type ReturnType<T> = T extends (...args: any[]) => infer R ? R : any;
 
 For comprehensive TypeScript integration with React, including component types, hooks, props, state management, and best practices, see the dedicated guide:
 
-**[TypeScript in React - Complete Guide](../React/5.typescript-in-react.md)**
+**[TypeScript in React - Complete Guide](16.typescript-in-react.md)**
 
 This guide covers:
 - Component types and interfaces
